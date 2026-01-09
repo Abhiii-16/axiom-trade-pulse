@@ -70,3 +70,52 @@ The solution was expected to follow modern frontend standards using **Next.js, T
 
 The project follows **Atomic Design principles** to ensure scalability and reuse.
 
+
+This structure ensures:
+- Clear separation of responsibilities
+- Easy component reuse
+- Predictable data flow
+- Maintainable long-term codebase
+
+---
+
+## Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript (strict mode)
+- **Styling**: Tailwind CSS
+- **Client State**: Redux Toolkit
+- **Async Data**: TanStack Query
+- **Icons**: Remix Icons
+
+All tools were chosen to prioritize **performance, developer experience, and scalability**.
+
+---
+
+## Performance Focus
+
+Special attention was given to frontend performance:
+
+- Fixed dimensions to avoid cumulative layout shift
+- Lightweight animations for metric changes
+- Efficient rendering of large token lists
+- Fast interactions under frequent updates
+
+The result is a UI that remains responsive even during continuous simulated data updates.
+
+---
+
+## Running the Project Locally
+
+### Prerequisites
+- Node.js 18+
+- npm / pnpm / yarn
+
+### Installation
+
+```bash
+git clone <your-repository-url>
+cd <project-folder>
+npm install
+
+
