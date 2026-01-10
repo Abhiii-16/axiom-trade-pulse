@@ -59,7 +59,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-[1px] no-underline mr-[24px]">
             <AxiomLogo className="w-[32px] h-[32px] text-white" />
             <span className="text-white font-medium text-[20px]">AXIOM</span>
-            <span className="bg-transparent text-[#fcfcfc] text-[13px] font-light p-0 self-end mb-[4px] ml-[2px]">Pro</span>
+            <span className="bg-transparent text-[#fcfcfc] text-[13px] font-light p-0 self-end mb-[4px] ml-[2px]">Pro (Abhineet)</span>
           </Link>
 
 
@@ -175,7 +175,7 @@ export function Header() {
                 <div className="w-full h-full rounded-full bg-[#0c0c10]" />
               </div>
               <button className="absolute inset-[2px] rounded-full bg-gradient-to-br from-[#6366f1] via-[#a855f7] to-[#ec4899] border-0 flex items-center justify-center cursor-pointer overflow-hidden p-0">
-                <span className="text-[10px] font-bold text-white">67</span>
+                <span className="text-[10px] font-bold text-white">01</span>
               </button>
               <div className="absolute bottom-0 right-0 w-[10px] h-[10px] bg-[#14f195] rounded-full border-[2px] border-[#0c0c10]" />
             </div>
